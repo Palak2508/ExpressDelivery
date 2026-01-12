@@ -11,7 +11,7 @@ import {
 import { motion, AnimatePresence } from 'framer-motion';
 import { AddressInfo, BookingState } from '../types';
 
-// ✅ CORRECT IMAGE IMPORT
+// IMAGE IMPORT
 import riderImage from '../assets/images/riderImage.png';
 
 interface Step1Props {
@@ -183,7 +183,7 @@ export const Step1_Addresses: React.FC<Step1Props> = ({
         <div className="flex-grow rounded-[3.5rem] overflow-hidden relative border border-white/10">
           <div className="absolute inset-0 bg-gradient-to-t from-blue-950 via-blue-900/40 to-transparent z-10" />
 
-          {/* ✅ FIXED IMAGE */}
+          {/* FIXED IMAGE */}
           <motion.img
             src={riderImage}
             alt="Express Rider"
